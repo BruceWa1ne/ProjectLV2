@@ -1,0 +1,1 @@
+"use strict";var shoppingCart=JSON.parse(localStorage.getItem("shoppingCart"))||[],$cartCount=$("#cartCount");function reCount(){$cartCount.empty(),$cartCount.append("<strong>"+shoppingCart.length+"</strong>")}reCount();

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- Basic page needs
+		============================================ -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>登录页</title>
+    <meta name="description" content="">
+    <!-- Mobile specific metas
+		============================================ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google font CSS
+            ============================================ -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+    <!-- Favicon
+            ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="../resource/images/favicon.png">
+    <!-- All CSS FilE -->
+    <!-- sidr mobile menu CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/jquery.sidr.light.css">
+    <!-- Bootstrap CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- jquery-ui CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <!-- fancybox CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/fancybox/jquery.fancybox.css">
+    <!--bxslider CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/jquery.bxslider.min.css">
+    <!-- font-awesome CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- nivo-slider css
+            ============================================ -->
+    <link rel="stylesheet" href="../resource/lib/css/nivo-slider.css">
+    <!-- owl.carousel CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <!-- normalize CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- main CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- style CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- responsive CSS
+            ============================================ -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- modernizr js
+            ============================================ -->
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+    </div>
+    <!--START HEADER TOP AREA  -->
+    <div class="header_top_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="header_top">
+                        <div class="header_top_left pull-left ">
+                            <p>欢迎浏览本站 ！请先登录</p>
+                        </div>
+                        <div class="header_top_right_menu pull-right ">
+                            <ul>
+                                <li><a href="../index.html">首页</a></li>
+                                <li><a href="">博客</a></li>
+                                <li><a href="./shoppingCart.html">商品列表</a></li>
+                                <li><a href="#">联系我们</a></li>
+                                <li><a href="./login.html">登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END HEADER TOP AREA  -->
+
+    <!--START HEADER TOP AREA  -->
+    <div class="header_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 ">
+                    <div class="phone_area">
+                        <p><i class="fa fa-phone"></i>
+                            <a href="tel:"> <b>详情拨打 </b> (+80) 123 456 789 </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+                    <div class="logo">
+                        <!--MOBILE MENU TRIGER-->
+                        <div class="mobilemenu_icone">
+                            <a id="mobile-menu" href="#sidr"><i class="fa fa-bars"></i></a>
+                        </div>
+                        <!--MOBILE MENU TRIGER-->
+                        <a href="../index.html"><img src="../resource/images/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md- col-sm-5 ">
+                    <div class="top_cat">
+                        <div class="Category">
+                            <p>分类</p>
+                            <div class="sub_cat">
+                                <ul>
+                                    <li><a href="">配饰</a></li>
+                                    <li><a href="">男孩</a></li>
+                                    <li><a href="">裙子</a></li>
+                                    <li><a href="">礼品</a></li>
+                                    <li><a href="">女孩</a></li>
+                                    <li><a href="">珠宝</a></li>
+                                    <li><a href="">男士</a></li>
+                                    <li><a href="">衬衣</a></li>
+                                    <li><a href="">电子产品</a></li>
+                                    <li><a href="">女士</a></li>
+                                    <li><a href="">热门</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search">
+                            <input type="text" placeholder="请搜索您喜爱的商品" />
+                            <button type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END HEADER TOP AREA  -->
+
+    <!--Login AREA START  -->
+    <div id="content" class="content">
+        <h3 class="text-center">登录账户</h3>
+        <div class="container d-flex justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-md-offset-4">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">用户名:</label>
+                        <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">密码:</label>
+                        <input type="password" class="form-control" id="password" placeholder="请输入密码">
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="submitBtn"
+                            class="btn btn-primary col-lg-6 col-md-offset-3">登录</button>
+                    </div>
+                    <div class="alert col-lg-7 col-md-7 col-sm-7 col-md-offset-7" role="alert">
+                        还未注册账户?<a href="./register.html" class="alert-link">&nbsp;&nbsp;点击注册</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Login AREA END -->
+
+    <!--FOOTER AREA START -->
+    <div class="footer_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 ">
+                    <div class="address">
+                        <a href="#"><img src="../resource/images/logo-footer.png" alt="" /></a>
+                        <ul>
+                            <li>
+                                <i class="fa fa-paper-plane"></i>
+                                <div class="contact-text">
+                                    <span>868 Bechole Road, Victory Lorem Ispuse, New York</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <div class="contact-text">
+                                    <span>Phone: (+80) 123 456 Fax: (+80) 123 456 789</span>
+                                </div>
+                            </li>
+                            <li class="flast">
+                                <i class="fa fa-envelope"></i>
+                                <div class="contact-text">
+                                    <span>Email: Contact@DevItems.us Website: www.DevItems.us</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+                    <div class="block">
+                        <h2 class="ft_widget_title">顾客板块</h2>
+                        <ul>
+                            <li><a href="">关于我们</a></li>
+                            <li><a href="">隐私策略</a></li>
+                            <li><a href="">条款 &amp; 条件</a></li>
+                            <li><a href="">畅销产品</a></li>
+                            <li><a href="">供应商</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 hidden-sm col-xs-12">
+                    <div class="block">
+                        <h2 class="ft_widget_title">信息</h2>
+                        <ul>
+                            <li><a href="">物流信息</a></li>
+                            <li><a href="">隐私政策</a></li>
+                            <li><a href="">条款 &amp; 条件</a></li>
+                            <li><a href="">搜索条款</a></li>
+                            <li><a href="">订单 &amp; 退换货</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12 ">
+                    <div class="block">
+                        <h2 class="ft_widget_title">营业时间</h2>
+                        <div class="open_time">
+                            <ul class="openning-time">
+                                <li>
+                                    <div class="inner"><i class="fa fa-caret-right"></i>工作日<span>上午 8：00 - 晚上 20：00
+                                        </span></div>
+                                </li>
+                                <li>
+                                    <div class="inner"><i class="fa fa-caret-right"></i>周六<span>上午 9：00 - 晚上 21：00
+                                        </span></div>
+                                </li>
+                                <li>
+                                    <div class="inner"><i class="fa fa-caret-right"></i>周日<span>上午 10：00 - 下午 18：00
+                                        </span></div>
+                                </li>
+                            </ul>
+                            <ul class="payment-img text-center">
+                                <li><img alt="" src="../resource/images/payment.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER AREA END -->
+
+    <!--COPY RIGHT AREA START -->
+    <div class="copy_right_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="copy_text ">
+                        <p>Copyright &copy; 2020.Company name All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 hidden-sm hidden-xs ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="copy_menu">
+                        <ul>
+                            <li><a href="">博客</a></li>
+                            <li><a href="./shopList.html">商品列表</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="">登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--COPY RIGHT AREA END -->
+
+    <!-- ALL JS FILES -->
+    <!-- jquery js -->
+    <script src="../js/vendor/jquery.js"></script>
+    <!-- jquery easytabs js -->
+    <script src="../js/jquery.easytabs.js"></script>
+    <!-- jquery scrollUp js -->
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- owl.carousel.min js -->
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- FancyBox -->
+    <script src="../js/jquery.fancybox.pack.js"></script>
+    <!-- jquery.easing js -->
+    <script src="../js/jquery.easing.1.3.min.js"></script>
+    <!-- bxslider js -->
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <!-- nivo.slider js -->
+	<script src="../resource/lib/js/jquery.nivo.slider.pack.js"></script>
+
+	<script src="../resource/lib/js/nivo-active.js"></script>
+    <!-- wow js -->
+    <script src="../js/wow.min.js"></script>
+    <!-- plugins js -->
+    <script src="../js/plugins.js"></script>
+    <!-- main js -->
+    <script src="../js/main.js"></script>
+    
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
